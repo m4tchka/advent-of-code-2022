@@ -3,7 +3,7 @@ import { readFileSync } from 'fs';
 function findMostCalories(data) {
     let arr = data.split("\n\r")
     for(let i = 0; i < arr.length; i++) {
-        console.log(arr[i])
+        console.log("elem:",arr[i])
         // arr[i]= arr[i].split("\n\r")/* .reduce((acc,curr)=>acc+curr) */
     }
     console.log(arr)
