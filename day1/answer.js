@@ -21,6 +21,7 @@ function findMostCalories(data) {
 }
 console.log(findMostCalories(puzzleInput)); // 71502
 
+
 // Part 2
 function find3MostCalories(data) {
     let arr = data.split("\r\n\r\n");
